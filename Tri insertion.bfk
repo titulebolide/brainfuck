@@ -1,0 +1,17 @@
+>>>>>,<, on place les deux premiers éléments de telle sorte à pouvoir faire une première insertion
+[
+	>
+	[  boucle de l'insertion d'un nb dans une liste triée
+		<<<+>>
+		[->->>+<<[>]<<]
+		<[-
+			>>>>>[<<+<+>>>-]<<<[>>>>>+<<<<<-]<<
+		]
+		<[-<
+			>>>>>>[<<+<+>>>-]<<[>>>>+<<<<-]<[>+<-]<<<
+		]>>>>>>>>>
+	]
+	<[>+<-]>[<<<<<] on revient au tout debut
+	>>>>, on place le prochain elt à inserer
+]
+>[.>>>>>] affichage

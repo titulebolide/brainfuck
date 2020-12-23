@@ -1,0 +1,16 @@
+insère un entier dans une liste triée
+input : 3;5;8;12;23;0;15 on insère 15 dans [3,5,8,12,23]
+contruction : +[>[>>>>>+<<<<<-]>>>>>++++<,]>[[<<<<<+>>>>>-]<<<<<----]<-
+boucle du tri : continue tant qu'elle ne rencontre pas d'elt nul
+>>>>,>
+[
+	<<<+>>
+	[->->>+<<[>]<<] compare les deux
+	<[- cas a sup b avec a le nb de gauche
+		>>>>>[<<+<+>>>-]<<<[>>>>>+<<<<<-]<<
+	]
+	<[-< cas a inf b
+		>>>>>>[<<+<+>>>-]<<[>>>>+<<<<-]<[>+<-]<<<
+	]>>>>>>>>>
+]<[>+<-]>[<<<<<]
+on revient tout au début

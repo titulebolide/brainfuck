@@ -1,0 +1,18 @@
+initially:
+0 1 0 a b 0
+pointer on a
+
+
++>+<                   This is for managing if a=0 and b=0
+[->-[>]<<]             This is a magic loop. if a is the one which reaches 0 first (a<b),then pointer will be at(4). Else it will be at (3). The purpose of [>] is to stick in place if the block is zero, else it jumps to the right.
+<[-  
+         //       BLOCK (a>=b)
+         //You are at (2) and do whatever you want and come back to (2).
+         //Its a must
+]
+<[-<
+         //       BLOCK(a<b)
+         //You are at (1) and do whatever you want and come back to (1).
+         //Its a must
+]
+You get out at (1)
